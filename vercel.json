@@ -1,0 +1,19 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "./index.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/"
+      }
+    ]
+<<<<<<< HEAD
+  }
+=======
+  }
+>>>>>>> 92885613d5a021cbf1bc7a918689e49979f09c7f
